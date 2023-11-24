@@ -239,6 +239,8 @@ def game_loop():
                     direction = 'RIGHT'
                 elif event.key == pygame.K_LEFT:
                     direction = 'LEFT'
+                elif event.key == pygame.K_ESCAPE:
+                    running = False
 
                 if game_over:
                     if event.key == pygame.K_RETURN:
