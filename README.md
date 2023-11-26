@@ -1,4 +1,4 @@
-# 2048 Game in Python with Pygame
+# 2048
 
 ## Overview
 
